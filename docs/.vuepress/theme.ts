@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "/water.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "EEErinn/EEErinn.github.io",
 
   docsDir: "demo/src",
   // darkmode: "switch",
