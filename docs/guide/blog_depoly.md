@@ -11,7 +11,7 @@ tag:
 ---
 # 个人博客搭建
 
->前一段时间杂活太多，熬了N天夜之后，开始报复性玩耍。玩过之后太空虚了，现在每天学一点点，过几天全能忘记，实在太菜。只好弄个小破站，记录下自己每天学习的东西。冲冲冲~
+>前一段时间杂活太多，熬了N天夜之后，开始报复性玩耍。玩过之后太空虚了，现在每天学一点点，过几天全忘记，实在太菜。只好弄个小破站，记录下自己每天学习的东西。冲冲冲~
 
 ## 环境安装
 
@@ -25,29 +25,29 @@ tag:
 
 1. 卸载全局包、卸载node.js
 
-![image-20220518135432369](C:\Users\拾光\AppData\Roaming\Typora\typora-user-images\image-20220518135432369.png)
+![image-20220518135432369](https://www.giaott.com/images/2022/08/07/Atb1c.png)
 
 ​	先采用方法一删除全局包，可能有的删不干净，最后直接把安装的全局包和cache全删了
 
-![image-20220518135159294](C:\Users\拾光\AppData\Roaming\Typora\typora-user-images\image-20220518135159294.png)
+![image-20220518135159294](https://www.giaott.com/images/2022/08/07/AtmrR.png)
 
 ​	然后，在开发面板找到`node.js`点击卸载，可以看到之前安装下图的`nodejs`文件全删除了
 
-![image-20220518135932833](C:\Users\拾光\AppData\Roaming\Typora\typora-user-images\image-20220518135932833.png)
+![image-20220518135932833](https://www.giaott.com/images/2022/08/07/AtnG1.png)
 
 2、 安装Node.js
 
-参考 [](https://blog.csdn.net/m0_47759019/article/details/121874564)
+参考 [这个网址](https://blog.csdn.net/m0_47759019/article/details/121874564)
 
 首先，官网下载对应版本，然后全默认安装
 
-![image-20220518140619462](C:\Users\拾光\AppData\Roaming\Typora\typora-user-images\image-20220518140619462.png)
+![image-20220518140619462](https://www.giaott.com/images/2022/08/07/AtcuQ.png)
 
 然后，配置环境变量
 
 把全局包和缓存路径设置在安装路径，则在nodejs下创建两个文件夹【node_global】及【node_cache】，如图
 
-![image-20220518212829688](C:\Users\拾光\AppData\Roaming\Typora\typora-user-images\image-20220518212829688.png)
+![image-20220518212829688](https://www.giaott.com/images/2022/08/07/AtiHp.png)
 
 创建完两个空文件夹之后，打开cmd命令窗口，输入
 
@@ -58,13 +58,13 @@ npm config set cache "D:\APP2022\nodejs\\node_cache"
 
 修改环境变量（其实没懂为啥）
 
-![image-20220518213029237](C:\Users\拾光\AppData\Roaming\Typora\typora-user-images\image-20220518213029237.png)
+![image-20220518213029237](https://www.giaott.com/images/2022/08/07/At3qY.png)
 
-![image-20220518213015609](C:\Users\拾光\AppData\Roaming\Typora\typora-user-images\image-20220518213015609.png)
+![image-20220518213015609](https://www.giaott.com/images/2022/08/07/At6Ns.png)
 
 验证安装结果
 
-![image-20220518140933250](C:\Users\拾光\AppData\Roaming\Typora\typora-user-images\image-20220518140933250.png)
+![image-20220518140933250](https://www.giaott.com/images/2022/08/07/AtNLP.png)
 
 
 
@@ -74,7 +74,7 @@ npm config set cache "D:\APP2022\nodejs\\node_cache"
 
 2. git管理项目：`git init`
 
-![image-20220518143108173](C:\Users\拾光\AppData\Roaming\Typora\typora-user-images\image-20220518143108173.png)
+![image-20220518143108173](https://www.giaott.com/images/2022/08/07/AtkoS.png)
 
 3. 安装`vuepress-theme-hope@next`
 
@@ -84,15 +84,15 @@ npm init vuepress-theme-hope@next docs
 
 结果报错
 
-![image-20220518143351084](C:\Users\拾光\AppData\Roaming\Typora\typora-user-images\image-20220518143351084.png)
+![image-20220518143351084](https://www.giaott.com/images/2022/08/07/At9c0.png)
 
 原因是`node_globa`l和`node_cache`路径改变为D盘安装路径，但没设置权限，解决方案如下
 
-![image-20220518143456604](C:\Users\拾光\AppData\Roaming\Typora\typora-user-images\image-20220518143456604.png)
+![image-20220518143456604](https://www.giaott.com/images/2022/08/07/AtS2f.png)
 
 安装完`vuepress-theme-hope`。（其实啥技术含量没有，但遇到的bug无语死了)
 
-![image-20220518144356808](C:\Users\拾光\AppData\Roaming\Typora\typora-user-images\image-20220518144356808.png)
+![image-20220518144356808](https://www.giaott.com/images/2022/08/07/AtlrN.png)
 
 4. 运行基础demo
 
@@ -102,7 +102,7 @@ npm init vuepress-theme-hope@next docs
 
    访问 http://localhost:8080/
 
-![](C:\Users\拾光\AppData\Roaming\Typora\typora-user-images\image-20220518144629652.png)
+![](https://www.giaott.com/images/2022/08/07/AtuGw.png)
 
 ## 项目介绍
 
@@ -154,7 +154,7 @@ tag:
 
 ## 参考资料
 
-Java 程序员进阶之路：[](https://jishuin.proginn.com/p/763bfbd75f48)
+1. [Java 程序员进阶之路](https://jishuin.proginn.com/p/763bfbd75f48)
 
-mall：[](https://blog.csdn.net/zhenghongcs/article/details/124006402)
+2. [mall](https://blog.csdn.net/zhenghongcs/article/details/124006402)
 
